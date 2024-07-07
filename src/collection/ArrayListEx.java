@@ -37,8 +37,15 @@ public class ArrayListEx {
         System.out.println(list1.toString());
 
         //전체 삭제
-        list1.clear();
+        //list1.clear();
 
-        System.out.println(list1.toString());
+        // addAll : Collection 객체를 받아서 Collection에 있는 아이템들을 리스트에 모두 추가
+        ArrayList<Integer> list2  = new ArrayList<> ();
+        list2.add(30);
+        list2.add(40);
+
+        list1.addAll(list2);
+
+        System.out.println(list1);
     }
 }
