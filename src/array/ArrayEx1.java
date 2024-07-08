@@ -4,7 +4,7 @@ package array;
 public class ArrayEx1 {
     public static void main(String[] args) {
 
-        int[] score = new int[] {10, 20, 30, 40, 50};;
+        int[] score = new int[] {10, 20, 30, 40, 50};
 
        /*
         int [] score = new int[5];
