@@ -8,7 +8,7 @@ public class RefEx2 {
         dataA.value = 10;
         System.out.println("메서드 호출 전: dataA.value = " + dataA.value);
         changeReference(dataA);
-        System.out.println("메서드 호출 후: dataA.value = " + dataA.value);
+        System.out.println("메서드 호출 후: dataA.value = " + dataA.value); //주소를 참조하므로 값이 바뀜 a=20
     }
     static void changeReference(Data2 dataX) {
         dataX.value = 20;
