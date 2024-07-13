@@ -18,11 +18,11 @@ public class StringEqualsMain2 {
 
     }
 
+    //매개변수가 new String() 인지 문자열 리터럴인지 확인할 수 있는 방법이 없기 떄문에
+    //문자열 비교는 항상 equals 사용(동등성 비교를 보장하기 위해서)
     private static boolean isSame(String x, String y) {
         //return x == y;
         return x.equals(y);
-
-        //매개변수가 new String() 인지 문자열 리터럴인지 확인할 수 있는 방법이 없기 떄문에
-        //문자열 비교는 항상 equals 사용(동등성 비교를 보장하기 위해서)
     }
+
 }
